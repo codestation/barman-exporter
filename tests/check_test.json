@@ -1,0 +1,96 @@
+{
+  "host1": {
+    "archive_command": {
+      "hint": "",
+      "status": "OK"
+    },
+    "archive_mode": {
+      "hint": "",
+      "status": "OK"
+    },
+    "archiver_errors": {
+      "hint": "",
+      "status": "OK"
+    },
+    "backup_maximum_age": {
+      "hint": "interval provided: 3 days, latest backup age: 1 day, 18 hours, 45 minutes, 38 seconds",
+      "status": "OK"
+    },
+    "backup_minimum_size": {
+      "hint": "33.8 GiB",
+      "status": "OK"
+    },
+    "compression_settings": {
+      "hint": "",
+      "status": "OK"
+    },
+    "continuous_archiving": {
+      "hint": "",
+      "status": "OK"
+    },
+    "directories": {
+      "hint": "",
+      "status": "OK"
+    },
+    "failed_backups": {
+      "hint": "there are 0 failed backups",
+      "status": "OK"
+    },
+    "minimum_redundancy_requirements": {
+      "hint": "have 3 backups, expected at least 1",
+      "status": "OK"
+    },
+    "pg_receivexlog": {
+      "hint": "",
+      "status": "OK"
+    },
+    "pg_receivexlog_compatible": {
+      "hint": "",
+      "status": "OK"
+    },
+    "postgresql": {
+      "hint": "",
+      "status": "OK"
+    },
+    "postgresql_streaming": {
+      "hint": "",
+      "status": "OK"
+    },
+    "receive_wal_running": {
+      "hint": "",
+      "status": "OK"
+    },
+    "replication_slot": {
+      "hint": "",
+      "status": "OK"
+    },
+    "retention_policy_settings": {
+      "hint": "",
+      "status": "OK"
+    },
+    "ssh": {
+      "hint": "PostgreSQL server",
+      "status": "OK"
+    },
+    "superuser_or_standard_user_with_backup_privileges": {
+      "hint": "",
+      "status": "OK"
+    },
+    "systemid_coherence": {
+      "hint": "",
+      "status": "OK"
+    },
+    "wal_level": {
+      "hint": "",
+      "status": "OK"
+    },
+    "wal_maximum_age": {
+      "hint": "no last_wal_maximum_age provided",
+      "status": "OK"
+    },
+    "wal_size": {
+      "hint": "904.4 MiB",
+      "status": "OK"
+    }
+  }
+}

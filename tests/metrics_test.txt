@@ -1,0 +1,18 @@
+# HELP barman_backup_duration_seconds Duration of last backup
+# TYPE barman_backup_duration_seconds gauge
+barman_backup_duration_seconds{server="host1"} 1953
+# HELP barman_backup_window_seconds Time range for PITR
+# TYPE barman_backup_window_seconds gauge
+barman_backup_window_seconds{server="host1"} 331013
+# HELP barman_last_backup_age_seconds Time since last full backup
+# TYPE barman_last_backup_age_seconds gauge
+barman_last_backup_age_seconds{server="host1"} -2.036711e+06
+# HELP barman_last_backup_size_bytes Size of last backup
+# TYPE barman_last_backup_size_bytes gauge
+barman_last_backup_size_bytes{server="host1"} 3.6283487994e+10
+# HELP barman_last_wal_age_seconds Time since last received wal
+# TYPE barman_last_wal_age_seconds gauge
+barman_last_wal_age_seconds{server="host1"} -2.194917e+06
+# HELP barman_status 1 if server passes all diagnostics
+# TYPE barman_status gauge
+barman_status{server="host1"} 1

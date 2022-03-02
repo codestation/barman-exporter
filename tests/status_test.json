@@ -1,0 +1,80 @@
+{
+  "host1": {
+    "active": {
+      "description": "Active",
+      "message": "True"
+    },
+    "archive_command": {
+      "description": "PostgreSQL 'archive_command' setting",
+      "message": "rsync -e \"ssh -p 25432 -o StrictHostKeyChecking=no\" -a %p barman@barman.dc.example.com:/var/lib/barman/host1/incoming/%f"
+    },
+    "backups_number": {
+      "description": "No. of available backups",
+      "message": "3"
+    },
+    "current_size": {
+      "description": "Current data size",
+      "message": "35.7 GiB"
+    },
+    "current_xlog": {
+      "description": "Current WAL segment",
+      "message": "000000010000006B000000E1"
+    },
+    "data_directory": {
+      "description": "PostgreSQL Data directory",
+      "message": "/var/lib/postgresql/13/main"
+    },
+    "description": {
+      "description": "Description",
+      "message": "host1 database"
+    },
+    "disabled": {
+      "description": "Disabled",
+      "message": "False"
+    },
+    "failed_count": {
+      "description": "Failures of WAL archiver",
+      "message": "880 (000000010000006A000000B8 at Mon Feb 28 02:26:30 2022)"
+    },
+    "first_backup": {
+      "description": "First available backup",
+      "message": "20220225T070004"
+    },
+    "is_in_recovery": {
+      "description": "Cluster state",
+      "message": "in production"
+    },
+    "last_archived_wal": {
+      "description": "Last archived WAL",
+      "message": "000000010000006B000000E0, at Mon Feb 28 21:56:57 2022"
+    },
+    "last_backup": {
+      "description": "Last available backup",
+      "message": "20220227T070011"
+    },
+    "minimum_redundancy": {
+      "description": "Minimum redundancy requirements",
+      "message": "satisfied (3/1)"
+    },
+    "passive_node": {
+      "description": "Passive node",
+      "message": "False"
+    },
+    "pg_version": {
+      "description": "PostgreSQL version",
+      "message": "13.5"
+    },
+    "pgespresso": {
+      "description": "pgespresso extension",
+      "message": "Not available"
+    },
+    "retention_policies": {
+      "description": "Retention policies",
+      "message": "enforced (mode: auto, retention: RECOVERY WINDOW OF 3 DAYS, WAL retention: MAIN)"
+    },
+    "server_archived_wals_per_hour": {
+      "description": "Server WAL archiving rate",
+      "message": "4.85/hour"
+    }
+  }
+}

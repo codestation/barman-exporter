@@ -1,0 +1,40 @@
+{
+  "host1": [
+    {
+      "backup_id": "20220227T070011",
+      "end_time": "Sun Feb 27 02:32:44 2022",
+      "end_time_timestamp": "1645929164",
+      "retention_status": "-",
+      "size": "33.8 GiB",
+      "size_bytes": 36283487994,
+      "status": "DONE",
+      "tablespaces": [],
+      "wal_size": "921.1 MiB",
+      "wal_size_bytes": 965894241
+    },
+    {
+      "backup_id": "20220226T070004",
+      "end_time": "Sat Feb 26 02:24:01 2022",
+      "end_time_timestamp": "1645842241",
+      "retention_status": "-",
+      "size": "33.7 GiB",
+      "size_bytes": 36175268621,
+      "status": "DONE",
+      "tablespaces": [],
+      "wal_size": "319.3 MiB",
+      "wal_size_bytes": 334766370
+    },
+    {
+      "backup_id": "20220225T070004",
+      "end_time": "Fri Feb 25 02:25:50 2022",
+      "end_time_timestamp": "1645755950",
+      "retention_status": "-",
+      "size": "33.5 GiB",
+      "size_bytes": 35992660809,
+      "status": "DONE",
+      "tablespaces": [],
+      "wal_size": "547.3 MiB",
+      "wal_size_bytes": 573852565
+    }
+  ]
+}
